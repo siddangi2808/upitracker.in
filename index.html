@@ -1,10 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  
+<title>UPI Global Tracker - Where India Pays the World</title>
+
+<meta name="description" content="Track every country, bank, and merchant that accepts UPI outside India. Live data on UPI international expansion, global acceptance, and cross-border payments.">
+
+<meta name="keywords" content="UPI tracker, UPI global, UPI international, UPI expansion, UPI outside India, where to use UPI abroad, UPI accepted countries, NPCI international, UPI global tracker">
+
+<!-- Open Graph (for WhatsApp / LinkedIn previews) -->
+<meta property="og:title" content="UPI Global Tracker - Where India Pays the World">
+<meta property="og:description" content="Track every country, bank, and merchant that accepts UPI outside India.">
+<meta property="og:url" content="https://upitracker.in">
+<meta property="og:type" content="website">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://upitracker.in">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title> UPI Global Tracker - Where India Pays the World</title>
+
 <style>
 :root{--bg:#060A0F;--sur:#0D1520;--card:#111D2E;--bdr:#1C2E45;--bdr2:#243649;--acc:#00D68F;--acc2:#0085FF;--acc3:#FF6B35;--gold:#FFB830;--txt:#E8F0FE;--mut:#6B8AAF;--mut2:#4A6580;}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
@@ -144,7 +157,7 @@ footer{border-top:1px solid var(--bdr);padding:24px 40px;display:flex;justify-co
 .flinks{display:flex;gap:16px;}
 .flinks button{font-size:12px;color:var(--mut);background:none;border:none;cursor:pointer;transition:color .12s;font-family:inherit;}
 .flinks button:hover{color:var(--acc);}
-.phero{position:relative;padding:80px 40px 60px;overflow:hidden;text-align:center;}
+.phero{position:relative;padding:24px 40px 60px;overflow:hidden;text-align:center;}
 .phero::before{content:'';position:absolute;top:-80px;left:50%;transform:translateX(-50%);width:700px;height:600px;background:radial-gradient(ellipse,rgba(0,214,143,.06),transparent 65%);pointer-events:none;}
 .phero h1{font-size:clamp(30px,5vw,58px);font-weight:800;line-height:1.1;margin-bottom:18px;}
 .plead{font-size:16px;line-height:1.7;color:var(--mut);max-width:540px;margin:0 auto 34px;}
@@ -196,7 +209,7 @@ footer{border-top:1px solid var(--bdr);padding:24px 40px;display:flex;justify-co
 .uc-eta strong{color:var(--gold);}
 .uc-link{color:var(--acc2);cursor:pointer;text-decoration:underline;}
 .notify-ok{background:rgba(0,214,143,.08);border:1px solid rgba(0,214,143,.2);border-radius:10px;padding:14px 24px;color:var(--acc);font-size:14px;font-weight:600;margin-bottom:16px;display:none;}
-.spage-hero{padding:76px 40px 44px;max-width:820px;margin:0 auto;text-align:center;}
+.spage-hero{padding:24px 40px 44px;max-width:820px;margin:0 auto;text-align:center;}
 .spage-hero h1{font-size:clamp(26px,4vw,48px);font-weight:800;line-height:1.1;margin-bottom:12px;}
 .spage-hero h1 span{color:var(--gold);}
 .spage-hero p{font-size:15px;color:var(--mut);max-width:480px;margin:0 auto;line-height:1.7;}
@@ -229,7 +242,7 @@ textarea.fi{resize:vertical;min-height:90px;}
 .smsg-ico{font-size:58px;margin-bottom:14px;}
 .smsg h3{font-size:21px;font-weight:700;margin-bottom:9px;}
 .smsg p{font-size:14px;color:var(--mut);line-height:1.65;}
-.cpage-hero{padding:76px 40px 44px;max-width:720px;margin:0 auto;text-align:center;}
+.cpage-hero{padding:24px 40px 44px;max-width:720px;margin:0 auto;text-align:center;}
 .cpage-hero h1{font-size:clamp(26px,4vw,48px);font-weight:800;margin-bottom:12px;}
 .cpage-hero h1 span{color:var(--acc3);}
 .cpage-hero p{font-size:15px;color:var(--mut);line-height:1.7;}
@@ -281,6 +294,16 @@ textarea.fi{resize:vertical;min-height:90px;}
   .stats-wrap{padding:0 18px;}
 }
 </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "UPI Global Tracker",
+  "url": "https://upitracker.in",
+  "description": "Track UPI international expansion - countries, banks, merchants and payment networks accepting UPI outside India.",
+  "keywords": "UPI tracker, UPI global, UPI international, UPI expansion"
+}
+</script>
 </head>
 <body>
 
@@ -294,7 +317,7 @@ textarea.fi{resize:vertical;min-height:90px;}
 <nav>
   <div class="logo" id="js-logo">
     <div class="logo-mark">₹</div>
-    <em>UnOffical UPI Global</em>Tracker
+    <em>UPI Global</em>Tracker
   </div>
   <div class="nav-links">
     <button class="nav-btn active" id="nav-tracker">Tracker</button>
@@ -426,7 +449,7 @@ textarea.fi{resize:vertical;min-height:90px;}
   <div class="phero">
     <div class="badge green" style="margin-bottom:24px"><span class="pdot" style="background:var(--acc)"></span> Public Resource · Community Powered</div>
     <h1>The World's First <span class="grad2">UPI Expansion Tracker</span></h1>
-    <p class="plead">We track every international bank, payment network, and merchant that accepts UPI outside India — so 32 million Indian travelers always know where India pays.</p>
+    <p class="plead">We track every international bank, payment network, and merchant that accepts UPI outside India so 32 million Indian travelers always know where India pays.</p>
     <div class="cta-row">
       <button class="btn-p" data-goto="submit">Contribute Data →</button>
       <button class="btn-o" data-goto="tracker">← Back to Tracker</button>
