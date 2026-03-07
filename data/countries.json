@@ -1,0 +1,182 @@
+[
+  {
+    "n": "United Arab Emirates",
+    "f": "🇦🇪",
+    "r": "middleeast",
+    "s": "live",
+    "y": "2021",
+    "m": "60,000+",
+    "nets": ["NeoPay", "Network International"],
+    "note": "Largest UPI merchant base outside India"
+  },
+  {
+    "n": "Singapore",
+    "f": "🇸🇬",
+    "r": "asia",
+    "s": "live",
+    "y": "2021",
+    "m": "12,000+",
+    "nets": ["PayNow", "HitPay"],
+    "note": "World's first real-time cross-border link"
+  },
+  {
+    "n": "Bhutan",
+    "f": "🇧🇹",
+    "r": "asia",
+    "s": "live",
+    "y": "2021",
+    "m": "Widespread",
+    "nets": ["BHIM UPI"],
+    "note": "First country to adopt UPI outside India"
+  },
+  {
+    "n": "Nepal",
+    "f": "🇳🇵",
+    "r": "asia",
+    "s": "live",
+    "y": "2024",
+    "m": "200,000+",
+    "nets": ["Fonepay", "NRB"],
+    "note": "200,000+ POS terminals at 60,000 merchants"
+  },
+  {
+    "n": "France",
+    "f": "🇫🇷",
+    "r": "europe",
+    "s": "live",
+    "y": "2024",
+    "m": "Tourist zones",
+    "nets": ["Lyra"],
+    "note": "First European nation; started at Eiffel Tower"
+  },
+  {
+    "n": "Sri Lanka",
+    "f": "🇱🇰",
+    "r": "asia",
+    "s": "live",
+    "y": "2024",
+    "m": "Growing",
+    "nets": ["NIPL"],
+    "note": "Launched by PM Modi alongside Mauritius"
+  },
+  {
+    "n": "Mauritius",
+    "f": "🇲🇺",
+    "r": "asia",
+    "s": "live",
+    "y": "2024",
+    "m": "Growing",
+    "nets": ["MauCAS"],
+    "note": "RuPay card also launched here"
+  },
+  {
+    "n": "Qatar",
+    "f": "🇶🇦",
+    "r": "middleeast",
+    "s": "live",
+    "y": "2025",
+    "m": "Airports, LuLu",
+    "nets": ["QNB"],
+    "note": "Started at Hamad Airport duty free"
+  },
+  {
+    "n": "Cyprus",
+    "f": "🇨🇾",
+    "r": "europe",
+    "s": "mou",
+    "y": "2025",
+    "m": "Coming soon",
+    "nets": ["Eurobank Cyprus"],
+    "note": "2nd European nation; MoU Jun 2025"
+  },
+  {
+    "n": "Greece",
+    "f": "🇬🇷",
+    "r": "europe",
+    "s": "mou",
+    "y": "2024",
+    "m": "Remittances",
+    "nets": ["Eurobank"],
+    "note": "First EU diaspora remittance corridor"
+  },
+  {
+    "n": "Malaysia",
+    "f": "🇲🇾",
+    "r": "asia",
+    "s": "pilot",
+    "y": "2025",
+    "m": "Pilot",
+    "nets": ["DuitNow"],
+    "note": "ASEAN fintech integration in progress"
+  },
+  {
+    "n": "Oman",
+    "f": "🇴🇲",
+    "r": "middleeast",
+    "s": "mou",
+    "y": "2023",
+    "m": "NRI focused",
+    "nets": ["CBO"],
+    "note": "MoU signed; NRI mobile number support"
+  },
+  {
+    "n": "United Kingdom",
+    "f": "🇬🇧",
+    "r": "europe",
+    "s": "pilot",
+    "y": "2022",
+    "m": "Limited",
+    "nets": ["PayXpert", "PPRO"],
+    "note": "NRI payments via UK mobile numbers"
+  },
+  {
+    "n": "Japan",
+    "f": "🇯🇵",
+    "r": "asia",
+    "s": "mou",
+    "y": "2025",
+    "m": "Coming 2026",
+    "nets": ["NTT Data"],
+    "note": "MoU signed Oct 2025; QR-based rollout planned"
+  },
+  {
+    "n": "Thailand",
+    "f": "🇹🇭",
+    "r": "asia",
+    "s": "planned",
+    "y": "2023",
+    "m": "Discussions",
+    "nets": ["PromptPay"],
+    "note": "UPI-PromptPay linkage under review"
+  },
+  {
+    "n": "Saudi Arabia",
+    "f": "🇸🇦",
+    "r": "middleeast",
+    "s": "planned",
+    "y": "—",
+    "m": "Planned",
+    "nets": ["GCC initiative"],
+    "note": "GCC initiative; large Indian diaspora"
+  },
+  {
+    "n": "Australia",
+    "f": "🇦🇺",
+    "r": "asia",
+    "s": "planned",
+    "y": "—",
+    "m": "NRI only",
+    "nets": ["NRI mobile"],
+    "note": "NRI mobile number UPI enabled"
+  },
+  {
+    "n": "Canada",
+    "f": "🇨🇦",
+    "r": "asia",
+    "s": "planned",
+    "y": "—",
+    "m": "NRI only",
+    "nets": ["NRI mobile"],
+    "note": "NRI mobile number UPI enabled"
+  }
+]

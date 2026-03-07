@@ -1,0 +1,10 @@
+[
+  { "n": "PayNow (MAS)",               "c": "Singapore 🇸🇬", "p": "UPI-PayNow bilateral",  "t": "network", "y": "2021", "s": "live"    },
+  { "n": "NeoPay / Network International", "c": "UAE 🇦🇪",  "p": "NIPL",                  "t": "network", "y": "2022", "s": "live"    },
+  { "n": "Lyra Network",               "c": "France 🇫🇷",   "p": "NIPL",                  "t": "network", "y": "2024", "s": "live"    },
+  { "n": "MauCAS",                     "c": "Mauritius 🇲🇺","p": "NIPL",                  "t": "network", "y": "2024", "s": "live"    },
+  { "n": "HitPay",                     "c": "Singapore 🇸🇬","p": "NIPL",                  "t": "network", "y": "2025", "s": "live"    },
+  { "n": "PromptPay",                  "c": "Thailand 🇹🇭", "p": "Under discussion",      "t": "network", "y": "—",    "s": "planned" },
+  { "n": "Buna (Arab Monetary Fund)",  "c": "Arab Region",  "p": "NIPL MoU",              "t": "network", "y": "2024", "s": "mou"     },
+  { "n": "PayPal World",               "c": "Global",       "p": "Interoperability",      "t": "network", "y": "2025", "s": "pilot"   }
+]

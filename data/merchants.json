@@ -1,0 +1,18 @@
+[
+  { "n": "Eiffel Tower",                "l": "Paris, France 🇫🇷",    "tags": ["Tourism", "QR"]          },
+  { "n": "Dubai Mall",                  "l": "Dubai, UAE 🇦🇪",        "tags": ["Retail", "QR"]           },
+  { "n": "Mall of the Emirates",        "l": "Dubai, UAE 🇦🇪",        "tags": ["Retail", "QR"]           },
+  { "n": "LuLu Group",                  "l": "Qatar 🇶🇦",             "tags": ["Grocery", "QR"]          },
+  { "n": "Hamad Intl Airport",          "l": "Doha, Qatar 🇶🇦",       "tags": ["Duty Free", "Airport"]   },
+  { "n": "Changi Airport",              "l": "Singapore 🇸🇬",         "tags": ["Retail", "QR"]           },
+  { "n": "7-Eleven Singapore",          "l": "Singapore 🇸🇬",         "tags": ["Convenience", "PayNow"]  },
+  { "n": "Grab",                        "l": "Singapore 🇸🇬",         "tags": ["Mobility", "App"]        },
+  { "n": "Bhutan Tourism QR",           "l": "Bhutan 🇧🇹",            "tags": ["Tourism", "QR"]          },
+  { "n": "Colombo Airport",             "l": "Sri Lanka 🇱🇰",         "tags": ["Airport", "QR"]          },
+  { "n": "Kathmandu Fonepay Merchants", "l": "Nepal 🇳🇵",             "tags": ["Retail", "QR"]           },
+  { "n": "Port Louis Markets",          "l": "Mauritius 🇲🇺",         "tags": ["Tourism", "QR"]          },
+  { "n": "Amazon.ae",                   "l": "UAE 🇦🇪",               "tags": ["E-commerce", "Online"]   },
+  { "n": "Noon.com",                    "l": "UAE 🇦🇪",               "tags": ["E-commerce", "Online"]   },
+  { "n": "Qatar Duty Free",             "l": "Qatar 🇶🇦",             "tags": ["Retail", "QR"]           },
+  { "n": "HitPay Merchants (12k+)",     "l": "Singapore 🇸🇬",         "tags": ["Retail", "Network"]      }
+]

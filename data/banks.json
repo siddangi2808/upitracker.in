@@ -1,0 +1,14 @@
+[
+  { "n": "Mashreq Bank",              "c": "UAE 🇦🇪",         "p": "NPCI International",  "t": "bank",    "y": "2021", "s": "live"  },
+  { "n": "DBS Singapore",             "c": "Singapore 🇸🇬",   "p": "UPI-PayNow",          "t": "bank",    "y": "2021", "s": "live"  },
+  { "n": "Qatar National Bank (QNB)", "c": "Qatar 🇶🇦",       "p": "NPCI International",  "t": "bank",    "y": "2025", "s": "live"  },
+  { "n": "Eurobank Cyprus",           "c": "Cyprus 🇨🇾",      "p": "NIPL MoU",            "t": "bank",    "y": "2025", "s": "mou"   },
+  { "n": "Eurobank Ergasias",         "c": "Greece 🇬🇷",      "p": "NIPL MoU",            "t": "bank",    "y": "2024", "s": "mou"   },
+  { "n": "Liquid Group",              "c": "Singapore 🇸🇬",   "p": "PayNow partner",      "t": "network", "y": "2021", "s": "live"  },
+  { "n": "Royal Monetary Authority",  "c": "Bhutan 🇧🇹",      "p": "NPCI Direct",         "t": "bank",    "y": "2021", "s": "live"  },
+  { "n": "Central Bank of Oman",      "c": "Oman 🇴🇲",        "p": "NIPL MoU",            "t": "bank",    "y": "2023", "s": "mou"   },
+  { "n": "NTT Data Corp",             "c": "Japan 🇯🇵",       "p": "NIPL MoU",            "t": "network", "y": "2025", "s": "mou"   },
+  { "n": "PayXpert",                  "c": "UK 🇬🇧",          "p": "PPRO / NIPL",         "t": "network", "y": "2022", "s": "pilot" },
+  { "n": "Merchantrade Asia",         "c": "Malaysia 🇲🇾",    "p": "NIPL",                "t": "network", "y": "2021", "s": "pilot" },
+  { "n": "Fonepay",                   "c": "Nepal 🇳🇵",       "p": "NIPL Direct",         "t": "network", "y": "2024", "s": "live"  }
+]
