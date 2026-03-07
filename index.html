@@ -292,6 +292,32 @@ textarea.fi{resize:vertical;min-height:90px;}
   footer{flex-direction:column;text-align:center;}
   .cbanner{flex-direction:column;}
   .stats-wrap{padding:0 18px;}
+  .hamburger{display:flex;}
+  .desktop-only{display:none;}
+  .mobile-only{display:block;}
+  .nav-links{
+    display:none;
+    position:absolute;
+    top:60px;
+    left:0;right:0;
+    background:rgba(6,10,15,.98);
+    backdrop-filter:blur(20px);
+    border-bottom:1px solid var(--bdr);
+    flex-direction:column;
+    padding:12px 16px 16px;
+    gap:4px;
+    z-index:999;
+  }
+  .nav-links.open{display:flex;}
+  .nav-btn{text-align:left;padding:10px 12px;font-size:14px;}
+  .nav-cta.mobile-only{width:100%;margin-top:8px;padding:11px;font-size:14px;border-radius:8px;}
+  /* Hamburger button */
+.hamburger{display:none;flex-direction:column;justify-content:center;gap:5px;background:none;border:none;cursor:pointer;padding:6px;z-index:1001;}
+.hamburger span{display:block;width:22px;height:2px;background:var(--txt);border-radius:2px;transition:all .25s;}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+.hamburger.open span:nth-child(2){opacity:0;}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+.mobile-only{display:none;}
 }
 </style>
 <script type="application/ld+json">
@@ -313,20 +339,25 @@ textarea.fi{resize:vertical;min-height:90px;}
   <div class="t-text"><strong id="t-title">Done!</strong><span id="t-sub">Completed.</span></div>
 </div>
 
+
 <!-- Navigation -->
 <nav>
   <div class="logo" id="js-logo">
     <div class="logo-mark">₹</div>
     <em>UPI Global</em>Tracker
   </div>
-  <div class="nav-links">
+  <div class="nav-links" id="nav-links">
     <button class="nav-btn active" id="nav-tracker">Tracker</button>
     <button class="nav-btn" id="nav-about">About</button>
     <button class="nav-btn" id="nav-api">API Access</button>
     <button class="nav-btn" id="nav-submit">Submit Update</button>
     <button class="nav-btn" id="nav-contact">Contact</button>
+    <button class="nav-cta mobile-only" id="nav-cta">Get Alerts</button>
   </div>
-  <button class="nav-cta" id="nav-cta">Get Alerts</button>
+  
+  <button class="hamburger" id="hamburger" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
 </nav>
 
 <!-- ═══════════════════════════ TRACKER PAGE ═══════════════════════════════ -->
@@ -645,5 +676,24 @@ textarea.fi{resize:vertical;min-height:90px;}
 
 <!-- Single script — loads data, renders everything -->
 <script src="js/app.js"></script>
+<!-- SEO: Hidden FAQ content for search engine indexing -->
+<div style="position:absolute;left:-9999px;top:-9999px;width:1px;height:1px;overflow:hidden;" aria-hidden="true">
+  <h2>Frequently Asked Questions about UPI International Payments</h2>
+
+  <h3>Which countries accept UPI payments?</h3>
+  <p>As of 2026, UPI payments are accepted in UAE, Singapore, Bhutan, Nepal, France, Sri Lanka, Mauritius, and Qatar. Countries with MoU signed include Cyprus, Greece, Oman, and Japan. Thailand, Saudi Arabia, Australia, and Canada are in the planned pipeline.</p>
+
+  <h3>Where can I use UPI outside India?</h3>
+  <p>You can use UPI outside India in UAE at 60,000+ merchants, Singapore at 12,000+ merchants via PayNow and HitPay, Nepal at 200,000+ POS terminals, France including the Eiffel Tower via Lyra network, Qatar at Hamad International Airport and LuLu, Bhutan, Sri Lanka, and Mauritius.</p>
+
+  <h3>Which banks support UPI internationally?</h3>
+  <p>Banks supporting UPI internationally include Mashreq Bank in UAE, DBS and OCBC in Singapore, Qatar National Bank in Qatar, Fonepay and NRB in Nepal, Eurobank in Greece and Cyprus, and the Royal Monetary Authority in Bhutan. Indian banks include SBI, HDFC, ICICI, Axis, PNB, Canara, and Bank of Baroda.</p>
+
+  <h3>Is UPI accepted in UAE, Singapore, and UK?</h3>
+  <p>Yes, UPI is fully live in UAE with 60,000+ merchants and in Singapore linked with PayNow. In the UK, UPI is in pilot stage via PayXpert and PPRO, mainly for NRI payments using UK mobile numbers.</p>
+
+  <h3>What is NPCI International?</h3>
+  <p>NPCI International Payments Limited (NIPL) is a wholly-owned subsidiary of NPCI set up in 2020 to deploy UPI, RuPay, and FASTag in foreign markets. It signs MoUs with foreign central banks and payment networks to enable UPI acceptance outside India.</p>
+</div>
 </body>
 </html>

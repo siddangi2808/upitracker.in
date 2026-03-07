@@ -228,7 +228,23 @@ function renderInsights() {
 // ─── Event wiring ─────────────────────────────────────────────────────────────
 
 function wireEvents() {
+  
+  // Hamburger menu
+var hamburger = document.getElementById('hamburger');
+var navLinks = document.getElementById('nav-links');
+hamburger.addEventListener('click', function(){
+  hamburger.classList.toggle('open');
+  navLinks.classList.toggle('open');
+});
+// Close menu when a nav link is clicked
+document.querySelectorAll('.nav-btn, #nav-cta-mobile').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    hamburger.classList.remove('open');
+    navLinks.classList.remove('open');
+  });
+});
   // Navigation
+  
   document.getElementById('js-logo').addEventListener('click', () => go('tracker'));
   ['tracker', 'about', 'api', 'submit', 'contact'].forEach(id => {
     document.getElementById('nav-' + id).addEventListener('click', () => go(id));
