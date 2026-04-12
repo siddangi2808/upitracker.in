@@ -6,8 +6,8 @@
     "s": "live",
     "y": "2021",
     "m": "60,000+",
-    "nets": ["NeoPay", "Network International"],
-    "note": "Largest UPI merchant base outside India"
+    "nets": ["NeoPay (Mashreq)", "Network International", "LuLu Financial"],
+    "note": "Largest UPI merchant base outside India; UPI expanded to Abu Dhabi in 2024; Al Maya & LuLu stores nationwide"
   },
   {
     "n": "Singapore",
@@ -16,8 +16,8 @@
     "s": "live",
     "y": "2021",
     "m": "12,000+",
-    "nets": ["PayNow", "HitPay"],
-    "note": "World's first real-time cross-border link"
+    "nets": ["PayNow", "HitPay", "Liquid Group"],
+    "note": "World's first real-time bilateral P2P link (UPI-PayNow); HitPay live for tourists from Mar 2025; PayNow corridor expanded to 19 Indian banks (Jul 2025)"
   },
   {
     "n": "Bhutan",
@@ -26,8 +26,8 @@
     "s": "live",
     "y": "2021",
     "m": "Widespread",
-    "nets": ["BHIM UPI"],
-    "note": "First country to adopt UPI outside India"
+    "nets": ["BHIM UPI", "Royal Monetary Authority"],
+    "note": "First country to adopt UPI outside India (Jul 13, 2021); accepted at shops, hotels & tourist sites via BHIM app"
   },
   {
     "n": "Nepal",
@@ -36,8 +36,8 @@
     "s": "live",
     "y": "2024",
     "m": "200,000+",
-    "nets": ["Fonepay", "NRB"],
-    "note": "200,000+ POS terminals at 60,000 merchants"
+    "nets": ["Fonepay", "Nepal Rastra Bank"],
+    "note": "200,000+ POS terminals at 60,000+ merchants; RBI-NRB agreement Feb 2024 for UPI-NPI P2P remittance corridor"
   },
   {
     "n": "France",
@@ -46,8 +46,8 @@
     "s": "live",
     "y": "2024",
     "m": "Tourist zones",
-    "nets": ["Lyra"],
-    "note": "First European nation; started at Eiffel Tower"
+    "nets": ["Lyra Network"],
+    "note": "First European nation; debuted Feb 2, 2024 at Eiffel Tower; now live at Galeries Lafayette, Paris cafés & e-commerce via Lyra"
   },
   {
     "n": "Sri Lanka",
@@ -55,19 +55,19 @@
     "r": "asia",
     "s": "live",
     "y": "2024",
-    "m": "Growing",
-    "nets": ["NIPL"],
-    "note": "Launched by PM Modi alongside Mauritius"
+    "m": "450,000+",
+    "nets": ["LankaPay", "Dialog Finance (genie)"],
+    "note": "Launched Feb 12, 2024 alongside Mauritius; 450,000+ LankaQR touchpoints; PhonePe-LankaPay tie-up live May 2024; airport & tourist zones covered"
   },
   {
     "n": "Mauritius",
     "f": "🇲🇺",
-    "r": "asia",
+    "r": "africa",
     "s": "live",
     "y": "2024",
     "m": "Growing",
     "nets": ["MauCAS"],
-    "note": "RuPay card also launched here"
+    "note": "Launched Feb 12, 2024; RuPay card also accepted via MauCAS network; bilateral flows enable Mauritians to pay in India too"
   },
   {
     "n": "Qatar",
@@ -75,9 +75,9 @@
     "r": "middleeast",
     "s": "live",
     "y": "2025",
-    "m": "Airports, LuLu",
-    "nets": ["QNB"],
-    "note": "Started at Hamad Airport duty free"
+    "m": "Airports, malls, retail",
+    "nets": ["QNB Group", "NETSTARS"],
+    "note": "QNB-NIPL deal Jul 2024; went live Sep 2025 at Qatar Duty Free (Hamad Airport); 8th country live; full rollout across QNB-acquired merchants underway"
   },
   {
     "n": "Cyprus",
@@ -87,47 +87,7 @@
     "y": "2025",
     "m": "Coming soon",
     "nets": ["Eurobank Cyprus"],
-    "note": "2nd European nation; MoU Jun 2025"
-  },
-  {
-    "n": "Greece",
-    "f": "🇬🇷",
-    "r": "europe",
-    "s": "mou",
-    "y": "2024",
-    "m": "Remittances",
-    "nets": ["Eurobank"],
-    "note": "First EU diaspora remittance corridor"
-  },
-  {
-    "n": "Malaysia",
-    "f": "🇲🇾",
-    "r": "asia",
-    "s": "pilot",
-    "y": "2025",
-    "m": "Pilot",
-    "nets": ["DuitNow"],
-    "note": "ASEAN fintech integration in progress"
-  },
-  {
-    "n": "Oman",
-    "f": "🇴🇲",
-    "r": "middleeast",
-    "s": "mou",
-    "y": "2023",
-    "m": "NRI focused",
-    "nets": ["CBO"],
-    "note": "MoU signed; NRI mobile number support"
-  },
-  {
-    "n": "United Kingdom",
-    "f": "🇬🇧",
-    "r": "europe",
-    "s": "pilot",
-    "y": "2022",
-    "m": "Limited",
-    "nets": ["PayXpert", "PPRO"],
-    "note": "NRI payments via UK mobile numbers"
+    "note": "MoU signed Jun 2025 during PM Modi's visit; 2nd European nation; EU gateway positioning; merchant rollout pending"
   },
   {
     "n": "Japan",
@@ -136,18 +96,108 @@
     "s": "mou",
     "y": "2025",
     "m": "Coming 2026",
-    "nets": ["NTT Data"],
-    "note": "MoU signed Oct 2025; QR-based rollout planned"
+    "nets": ["NTT DATA (CAFIS)"],
+    "note": "MoU signed Oct 7, 2025; NTT DATA operates CAFIS—Japan's largest card payment network; first East Asian UPI entry; 208,000+ Indian tourists in Jan-Aug 2025 (+36% YoY)"
+  },
+  {
+    "n": "Malaysia",
+    "f": "🇲🇾",
+    "r": "asia",
+    "s": "mou",
+    "y": "2026",
+    "m": "2.9M+ DuitNow QR points",
+    "nets": ["PayNet (DuitNow)", "Merchantrade Asia"],
+    "note": "NIPL-PayNet MoU Feb 12, 2026 linking UPI with DuitNow QR; Phase 1: Indians pay at 29 lakh DuitNow touchpoints; Phase 2: Malaysians pay at UPI QR in India; Merchantrade live for remittances since 2021"
   },
   {
     "n": "Thailand",
     "f": "🇹🇭",
     "r": "asia",
-    "s": "planned",
+    "s": "pilot",
+    "y": "2025",
+    "m": "Via Project Nexus",
+    "nets": ["PromptPay (NITMX)", "Bank of Thailand"],
+    "note": "UPI-PromptPay interoperability advancing via BIS Project Nexus (India, Thailand, Singapore, Malaysia, Philippines founding members; target live 2026); PromptPay has 81M+ registrations"
+  },
+  {
+    "n": "Maldives",
+    "f": "🇲🇻",
+    "r": "asia",
+    "s": "pilot",
+    "y": "2024",
+    "m": "Pilot rollout",
+    "nets": ["TradeNet Maldives", "Maldives Monetary Authority"],
+    "note": "MoU signed Aug 2024 during EAM Jaishankar visit; President Muizzu formed consortium (Oct 2024) led by TradeNet; RuPay live at Bank of Maldives ATMs/POS from Oct 2024"
+  },
+  {
+    "n": "Greece",
+    "f": "🇬🇷",
+    "r": "europe",
+    "s": "mou",
+    "y": "2024",
+    "m": "Remittances",
+    "nets": ["Eurobank Ergasias"],
+    "note": "NPCI-Eurobank Ergasias MoU Feb 29, 2024; focused on cross-border payments and diaspora remittances"
+  },
+  {
+    "n": "Israel",
+    "f": "🇮🇱",
+    "r": "middleeast",
+    "s": "mou",
+    "y": "2026",
+    "m": "Coming soon",
+    "nets": ["Bank of Israel"],
+    "note": "Agreement signed Feb 2026 during PM Modi's state visit; enables UPI-based cross-border transactions for tourists & businesses"
+  },
+  {
+    "n": "Oman",
+    "f": "🇴🇲",
+    "r": "middleeast",
+    "s": "mou",
     "y": "2023",
-    "m": "Discussions",
-    "nets": ["PromptPay"],
-    "note": "UPI-PromptPay linkage under review"
+    "m": "NRI focused",
+    "nets": ["Central Bank of Oman"],
+    "note": "MoU signed 2023; NRI mobile number UPI access enabled; large Indian diaspora (~780K); live merchant rollout still pending"
+  },
+  {
+    "n": "United Kingdom",
+    "f": "🇬🇧",
+    "r": "europe",
+    "s": "pilot",
+    "y": "2022",
+    "m": "Limited",
+    "nets": ["PayXpert", "PPRO Financial"],
+    "note": "PPRO MoU Nov 2021; UK NRI mobile numbers UPI-enabled from Apr 2023; merchant acceptance limited; deeper integration discussions ongoing"
+  },
+  {
+    "n": "Peru",
+    "f": "🇵🇪",
+    "r": "latam",
+    "s": "mou",
+    "y": "2024",
+    "m": "Building domestic RTP",
+    "nets": ["Central Reserve Bank of Peru (BCRP)"],
+    "note": "NIPL-BCRP agreement Jun 5, 2024; first South American country to adopt UPI tech stack; building UPI-like domestic RTP system; launch expected 2025-26"
+  },
+  {
+    "n": "Namibia",
+    "f": "🇳🇦",
+    "r": "africa",
+    "s": "mou",
+    "y": "2024",
+    "m": "Building domestic RTP",
+    "nets": ["Bank of Namibia"],
+    "note": "NIPL-Bank of Namibia deal May 2, 2024; building UPI-like instant payment infrastructure for domestic P2P and P2M transactions"
+  },
+  {
+    "n": "Philippines",
+    "f": "🇵🇭",
+    "r": "asia",
+    "s": "pilot",
+    "y": "2024",
+    "m": "Via Project Nexus",
+    "nets": ["Bangko Sentral ng Pilipinas", "InstaPay"],
+    "note": "BIS Project Nexus founding member (Jun 2024); UPI-InstaPay cross-border linkage targeted for 2026; strong remittance corridor with India"
   },
   {
     "n": "Saudi Arabia",
@@ -156,27 +206,37 @@
     "s": "planned",
     "y": "—",
     "m": "Planned",
-    "nets": ["GCC initiative"],
-    "note": "GCC initiative; large Indian diaspora"
+    "nets": ["GCC / Buna initiative"],
+    "note": "GCC-wide initiative via Buna (Arab Monetary Fund); large Indian diaspora (~2.5M); NRI mobile number UPI access enabled; formal merchant rollout TBD"
   },
   {
     "n": "Australia",
     "f": "🇦🇺",
-    "r": "asia",
+    "r": "oceania",
     "s": "planned",
     "y": "—",
     "m": "NRI only",
-    "nets": ["NRI mobile"],
-    "note": "NRI mobile number UPI enabled"
+    "nets": ["NRI mobile number"],
+    "note": "NRI mobile number UPI access enabled from Apr 2023; no merchant QR acceptance yet; under NIPL expansion discussions"
   },
   {
     "n": "Canada",
     "f": "🇨🇦",
-    "r": "asia",
+    "r": "americas",
     "s": "planned",
     "y": "—",
     "m": "NRI only",
-    "nets": ["NRI mobile"],
-    "note": "NRI mobile number UPI enabled"
+    "nets": ["NRI mobile number"],
+    "note": "NRI mobile number UPI access enabled from Apr 2023; no merchant QR acceptance yet; large Indian diaspora driving demand"
+  },
+  {
+    "n": "Trinidad & Tobago",
+    "f": "🇹🇹",
+    "r": "latam",
+    "s": "mou",
+    "y": "2024",
+    "m": "Building domestic RTP",
+    "nets": ["Ministry of Digital Transformation"],
+    "note": "NIPL-MDT collaboration announced Sep 27, 2024; building UPI-like domestic RTP infrastructure for P2P and P2M payments"
   }
 ]

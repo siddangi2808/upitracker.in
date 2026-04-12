@@ -1,10 +1,191 @@
 [
-  { "n": "PayNow (MAS)",               "c": "Singapore 🇸🇬", "p": "UPI-PayNow bilateral",  "t": "network", "y": "2021", "s": "live"    },
-  { "n": "NeoPay / Network International", "c": "UAE 🇦🇪",  "p": "NIPL",                  "t": "network", "y": "2022", "s": "live"    },
-  { "n": "Lyra Network",               "c": "France 🇫🇷",   "p": "NIPL",                  "t": "network", "y": "2024", "s": "live"    },
-  { "n": "MauCAS",                     "c": "Mauritius 🇲🇺","p": "NIPL",                  "t": "network", "y": "2024", "s": "live"    },
-  { "n": "HitPay",                     "c": "Singapore 🇸🇬","p": "NIPL",                  "t": "network", "y": "2025", "s": "live"    },
-  { "n": "PromptPay",                  "c": "Thailand 🇹🇭", "p": "Under discussion",      "t": "network", "y": "—",    "s": "planned" },
-  { "n": "Buna (Arab Monetary Fund)",  "c": "Arab Region",  "p": "NIPL MoU",              "t": "network", "y": "2024", "s": "mou"     },
-  { "n": "PayPal World",               "c": "Global",       "p": "Interoperability",      "t": "network", "y": "2025", "s": "pilot"   }
+  {
+    "n": "PayNow (MAS / ABS)",
+    "c": "Singapore 🇸🇬",
+    "p": "UPI-PayNow bilateral",
+    "t": "network",
+    "y": "2021",
+    "s": "live",
+    "note": "First bilateral P2P live corridor (Feb 2023); expanded to 19 Indian banks Jul 2025; also supports QR-based P2M via HitPay & Liquid Group; part of Project Nexus (go-live 2026)"
+  },
+  {
+    "n": "NeoPay (Mashreq)",
+    "c": "UAE 🇦🇪",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2022",
+    "s": "live",
+    "note": "First UAE acquirer live for UPI QR (Apr 2022); powers NeoPay POS terminals; PhonePe users can pay at NeoPay terminals (live Mar 2024); core UAE QR infrastructure"
+  },
+  {
+    "n": "Network International",
+    "c": "UAE 🇦🇪",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2024",
+    "s": "live",
+    "note": "MoU Nov 2021; live Jul 2024; 200,000+ POS at 60,000+ UAE merchants incl. Dubai Mall & Mall of the Emirates; merged with Magnati (Oct 2025) to form combined MEA fintech platform"
+  },
+  {
+    "n": "Magnati (Abu Dhabi)",
+    "c": "UAE 🇦🇪",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2025",
+    "s": "live",
+    "note": "NIPL-Magnati partnership live Jan 2025; QR-based UPI via POS terminals; initial rollout at Dubai Duty Free; merged with Network International Oct 2025 (combined 240,000+ merchants)"
+  },
+  {
+    "n": "Lyra Network",
+    "c": "France 🇫🇷",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2024",
+    "s": "live",
+    "note": "Live Feb 2, 2024 at Eiffel Tower; expanded to Galeries Lafayette Haussmann Jul 3, 2024 (ahead of Paris Olympics); covers e-commerce + POS; expanding to more French & European merchants"
+  },
+  {
+    "n": "LankaPay",
+    "c": "Sri Lanka 🇱🇰",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2024",
+    "s": "live",
+    "note": "Live Feb 12, 2024; national QR switch of Sri Lanka; 450,000+ LankaQR merchant touchpoints; PhonePe-LankaPay tie-up added May 2024; regulated by Central Bank of Sri Lanka"
+  },
+  {
+    "n": "MauCAS",
+    "c": "Mauritius 🇲🇺",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2024",
+    "s": "live",
+    "note": "Live Feb 12, 2024 (co-launched with Sri Lanka); Mauritius Card & ACH Switch; also enabled RuPay card issuance in Mauritius; bilateral flows active both ways"
+  },
+  {
+    "n": "Fonepay",
+    "c": "Nepal 🇳🇵",
+    "p": "NIPL Direct",
+    "t": "network",
+    "y": "2024",
+    "s": "live",
+    "note": "Live Mar 2024; Nepal's largest non-card payment network; 67,000+ merchants; NPR 1.6B+ processed in first year; 5.6L+ transactions by Mar 2025; rural reach to Dolpa, Bajura"
+  },
+  {
+    "n": "BHIM UPI / RMA Bhutan",
+    "c": "Bhutan 🇧🇹",
+    "p": "NPCI Direct",
+    "t": "network",
+    "y": "2021",
+    "s": "live",
+    "note": "First country; live Jul 13, 2021 via Royal Monetary Authority; BHIM app based QR acceptance; widespread across shops, hotels & tourist sites in Thimphu and Paro"
+  },
+  {
+    "n": "QNB / NETSTARS (Qatar)",
+    "c": "Qatar 🇶🇦",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2025",
+    "s": "live",
+    "note": "QNB-NIPL deal Jul 2024; NETSTARS powers POS QR solution; live Sep 2025 at Qatar Duty Free (Hamad Airport); expanding across QNB-acquired merchants in retail, hospitality & tourism"
+  },
+  {
+    "n": "HitPay",
+    "c": "Singapore 🇸🇬",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2025",
+    "s": "live",
+    "note": "Live Mar 22, 2025 for Indian tourists; 12,000+ merchants across restaurants, shops & tourist destinations; enables UPI QR acceptance on top of PayNow infrastructure"
+  },
+  {
+    "n": "DuitNow / PayNet Malaysia",
+    "c": "Malaysia 🇲🇾",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2026",
+    "s": "mou",
+    "note": "NIPL-PayNet MoU signed Feb 12-13, 2026; Phase 1: Indians pay at 2.9M+ DuitNow QR touchpoints; Phase 2: Malaysians scan UPI QR in India; aligned with Visit Malaysia 2026"
+  },
+  {
+    "n": "PromptPay (NITMX / Bank of Thailand)",
+    "c": "Thailand 🇹🇭",
+    "p": "Project Nexus / NIPL",
+    "t": "network",
+    "y": "2025",
+    "s": "pilot",
+    "note": "Bilateral pilot active 2025; Project Nexus founding member (signed Jun 30, 2024); full UPI-PromptPay interoperability targeted for 2026; PromptPay has 81M+ registrations & 2.1B monthly txns"
+  },
+  {
+    "n": "InstaPay / BSP Philippines",
+    "c": "Philippines 🇵🇭",
+    "p": "Project Nexus",
+    "t": "network",
+    "y": "2024",
+    "s": "pilot",
+    "note": "Project Nexus founding member (Jun 30, 2024); UPI-InstaPay cross-border linkage under implementation; Nexus Scheme Organisation (NSO) incorporated 2025 in Singapore; go-live targeted 2026"
+  },
+  {
+    "n": "Aani (Al Etihad Payments / CBUAE)",
+    "c": "UAE 🇦🇪",
+    "p": "NIPL MoU",
+    "t": "network",
+    "y": "2024",
+    "s": "mou",
+    "note": "UAE's domestic instant payment system (akin to UPI); NIPL in active discussions to link UPI with Aani for P2P; MoU intent confirmed late 2024; full bilateral link pending regulatory sign-off"
+  },
+  {
+    "n": "Buna (Arab Monetary Fund)",
+    "c": "Arab Region",
+    "p": "NIPL MoU",
+    "t": "network",
+    "y": "2024",
+    "s": "mou",
+    "note": "Multi-currency cross-border payment platform for Arab nations; NIPL MoU 2024; enables multi-currency UPI transactions across GCC countries; bilateral settlement framework in progress"
+  },
+  {
+    "n": "PPRO / PayXpert",
+    "c": "UK 🇬🇧",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2022",
+    "s": "pilot",
+    "note": "PPRO-NIPL MoU Nov 17, 2021; limited live for NRI UPI via UK mobile numbers (Apr 2023); merchant QR acceptance patchy; deeper integration still under discussion"
+  },
+  {
+    "n": "Merchantrade Asia",
+    "c": "Malaysia 🇲🇾",
+    "p": "NIPL",
+    "t": "network",
+    "y": "2021",
+    "s": "live",
+    "note": "Malaysia's first UPI partner (2021); live for inward remittances to India via UPI rails; predates PayNet bilateral agreement; serves Malaysian Indian diaspora remittance corridor"
+  },
+  {
+    "n": "Liquid Group",
+    "c": "Singapore 🇸🇬",
+    "p": "NIPL / PayNow",
+    "t": "network",
+    "y": "2021",
+    "s": "live",
+    "note": "PayNow partner enabling UPI QR acceptance across Singapore merchants; also signed to extend QR UPI across 10 SEA countries incl. Malaysia, Thailand, Philippines, Vietnam, Cambodia, South Korea, Japan, Taiwan, HK"
+  },
+  {
+    "n": "PayPal World",
+    "c": "Global",
+    "p": "Interoperability",
+    "t": "network",
+    "y": "2025",
+    "s": "live",
+    "note": "PayPal World launched Jul 23, 2025; UPI is a launch partner alongside Tenpay Global, Venmo & Mercado Pago; enables UPI users to pay at PayPal-accepting merchants globally; covers ~2B users at go-live"
+  },
+  {
+    "n": "Project Nexus (BIS / NSO)",
+    "c": "Multilateral",
+    "p": "BIS Innovation Hub",
+    "t": "network",
+    "y": "2024",
+    "s": "pilot",
+    "note": "Founding members: India (UPI), Singapore (PayNow/FAST), Malaysia (DuitNow), Thailand (PromptPay), Philippines (InstaPay); Indonesia observer; NSO incorporated Singapore 2025; full go-live targeted 2026; hub-and-spoke model for 60-second cross-border payments"
+  }
 ]

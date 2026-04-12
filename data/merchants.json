@@ -1,18 +1,37 @@
 [
-  { "n": "Eiffel Tower",                "l": "Paris, France 🇫🇷",    "tags": ["Tourism", "QR"]          },
-  { "n": "Dubai Mall",                  "l": "Dubai, UAE 🇦🇪",        "tags": ["Retail", "QR"]           },
-  { "n": "Mall of the Emirates",        "l": "Dubai, UAE 🇦🇪",        "tags": ["Retail", "QR"]           },
-  { "n": "LuLu Group",                  "l": "Qatar 🇶🇦",             "tags": ["Grocery", "QR"]          },
-  { "n": "Hamad Intl Airport",          "l": "Doha, Qatar 🇶🇦",       "tags": ["Duty Free", "Airport"]   },
-  { "n": "Changi Airport",              "l": "Singapore 🇸🇬",         "tags": ["Retail", "QR"]           },
-  { "n": "7-Eleven Singapore",          "l": "Singapore 🇸🇬",         "tags": ["Convenience", "PayNow"]  },
-  { "n": "Grab",                        "l": "Singapore 🇸🇬",         "tags": ["Mobility", "App"]        },
-  { "n": "Bhutan Tourism QR",           "l": "Bhutan 🇧🇹",            "tags": ["Tourism", "QR"]          },
-  { "n": "Colombo Airport",             "l": "Sri Lanka 🇱🇰",         "tags": ["Airport", "QR"]          },
-  { "n": "Kathmandu Fonepay Merchants", "l": "Nepal 🇳🇵",             "tags": ["Retail", "QR"]           },
-  { "n": "Port Louis Markets",          "l": "Mauritius 🇲🇺",         "tags": ["Tourism", "QR"]          },
-  { "n": "Amazon.ae",                   "l": "UAE 🇦🇪",               "tags": ["E-commerce", "Online"]   },
-  { "n": "Noon.com",                    "l": "UAE 🇦🇪",               "tags": ["E-commerce", "Online"]   },
-  { "n": "Qatar Duty Free",             "l": "Qatar 🇶🇦",             "tags": ["Retail", "QR"]           },
-  { "n": "HitPay Merchants (12k+)",     "l": "Singapore 🇸🇬",         "tags": ["Retail", "Network"]      }
+  { "n": "Eiffel Tower (tickets & on-site)",  "l": "Paris, France 🇫🇷",          "tags": ["Tourism", "QR", "Online"],    "note": "First international UPI merchant; live since Feb 2, 2024 via Lyra; online ticket booking + on-site QR" },
+  { "n": "Galeries Lafayette Haussmann",      "l": "Paris, France 🇫🇷",          "tags": ["Retail", "QR"],               "note": "Live since Jul 3, 2024; launched ahead of Paris Olympics 2024; iconic department store flagship" },
+  { "n": "Charles de Gaulle Airport (CDG)",   "l": "Paris, France 🇫🇷",          "tags": ["Duty Free", "Airport"],        "note": "Select duty-free & retail outlets at CDG accept UPI via Lyra Network" },
+
+  { "n": "Dubai Mall",                        "l": "Dubai, UAE 🇦🇪",             "tags": ["Retail", "QR"],               "note": "Part of Network International's 60,000+ merchant rollout; world's largest shopping mall" },
+  { "n": "Mall of the Emirates",              "l": "Dubai, UAE 🇦🇪",             "tags": ["Retail", "QR"],               "note": "Network International POS coverage; major retail & entertainment hub" },
+  { "n": "Dubai Duty Free",                   "l": "Dubai Intl Airport, UAE 🇦🇪", "tags": ["Duty Free", "Airport", "QR"], "note": "Among the first UAE merchants to activate UPI; via NeoPay/Mashreq" },
+  { "n": "LuLu Hypermarket UAE",              "l": "UAE 🇦🇪",                    "tags": ["Grocery", "Retail", "QR"],    "note": "All UAE LuLu locations accept UPI; confirmed live Jul 2024 via NIPL partnership" },
+  { "n": "Al Maya Supermarkets",              "l": "UAE 🇦🇪",                    "tags": ["Grocery", "QR"],              "note": "50 stores across UAE; UPI launched Jul 20, 2024; first supermarket chain to publicly announce UPI" },
+  { "n": "Abu Dhabi Mall",                    "l": "Abu Dhabi, UAE 🇦🇪",         "tags": ["Retail", "QR"],               "note": "UPI expanded to Abu Dhabi during PM Modi's 2024 visit; select merchants via Magnati" },
+
+  { "n": "Jewel Changi Airport (L5 zone)",    "l": "Singapore 🇸🇬",              "tags": ["Retail", "Airport", "QR"],    "note": "UPI accepted at all Level 5 attractions; 80M+ annual visitors; confirmed via MakeMyTrip & HitPay" },
+  { "n": "HitPay Merchant Network (12,000+)", "l": "Singapore 🇸🇬",              "tags": ["Retail", "Network", "QR"],    "note": "HitPay live for Indian tourists from Mar 22, 2025; restaurants, shops & tourist destinations island-wide" },
+  { "n": "7-Eleven Singapore",               "l": "Singapore 🇸🇬",              "tags": ["Convenience", "PayNow", "QR"], "note": "PayNow QR accepted; interoperable with UPI-PayNow corridor" },
+  { "n": "Grab Singapore",                   "l": "Singapore 🇸🇬",              "tags": ["Mobility", "App"],            "note": "PayNow-linked; UPI-PayNow P2P corridor enables indirect top-up & payments" },
+  { "n": "Mustafa Centre",                   "l": "Little India, Singapore 🇸🇬", "tags": ["Retail", "QR"],              "note": "Popular 24-hr Indian-owned mall; PayNow QR widely used; key destination for Indian diaspora" },
+
+  { "n": "Qatar Duty Free",                  "l": "Hamad Intl Airport, Qatar 🇶🇦", "tags": ["Duty Free", "Airport", "QR"], "note": "First QR UPI merchant in Qatar; live Sep 2025 via QNB + NETSTARS; biggest duty-free in the world" },
+  { "n": "LuLu Group Qatar",                 "l": "Qatar 🇶🇦",                  "tags": ["Grocery", "Retail", "QR"],    "note": "LuLu stores in Qatar part of QNB merchant network accepting UPI QR" },
+  { "n": "QNB Merchant Network (Qatar)",     "l": "Qatar 🇶🇦",                  "tags": ["Retail", "Network"],          "note": "All QNB-acquired merchants across Qatar; expanding to malls, hospitality & tourist zones post-Sep 2025" },
+
+  { "n": "Bhutan Tourism QR (BHIM)",         "l": "Thimphu & Paro, Bhutan 🇧🇹",  "tags": ["Tourism", "QR"],              "note": "Shops, hotels & tourist sites nationwide accept BHIM UPI QR via Royal Monetary Authority since Jul 2021" },
+
+  { "n": "Bandaranaike Intl Airport",        "l": "Colombo, Sri Lanka 🇱🇰",      "tags": ["Airport", "QR"],              "note": "UPI live at Dialog Experience Centre in airport; among the first acceptance points at Sri Lanka launch Feb 2024" },
+  { "n": "Dialog Iconic Experience Centre",  "l": "Colombo 02, Sri Lanka 🇱🇰",   "tags": ["Retail", "QR"],              "note": "First UPI transaction in Sri Lanka conducted here at Feb 2024 launch event" },
+  { "n": "Taj Samudra Colombo",              "l": "Colombo, Sri Lanka 🇱🇰",      "tags": ["Hotel", "QR"],                "note": "5-star launch partner; among first merchants to accept UPI via genie Business / LankaPay" },
+  { "n": "Ministry of Crab",                 "l": "Colombo, Sri Lanka 🇱🇰",      "tags": ["Restaurant", "QR"],           "note": "Internationally acclaimed seafood restaurant; official UPI launch partner, Feb 2024" },
+  { "n": "LankaQR Merchant Network",         "l": "Sri Lanka 🇱🇰",               "tags": ["Network", "QR"],              "note": "450,000+ LankaQR merchant touchpoints nationwide; all accept UPI via PhonePe-LankaPay integration" },
+
+  { "n": "Fonepay Merchant Network",         "l": "Nepal 🇳🇵",                   "tags": ["Network", "QR"],              "note": "200,000+ POS at 60,000+ merchants across Nepal; largest QR payment network; UPI live Mar 2024" },
+  { "n": "Kathmandu Tourist Zone Merchants", "l": "Thamel, Kathmandu, Nepal 🇳🇵", "tags": ["Tourism", "Retail", "QR"],   "note": "Hotels, restaurants, souvenir shops & trekking agencies in Thamel accept UPI via Fonepay QR" },
+
+  { "n": "Port Louis Markets & Resorts",     "l": "Mauritius 🇲🇺",               "tags": ["Tourism", "QR"],              "note": "Tourist-zone merchants, beach markets and resorts; MauCAS network; live since Feb 12, 2024" },
+
+  { "n": "Changi Airport Retail (T1-T3)",    "l": "Singapore 🇸🇬",               "tags": ["Retail", "Airport", "QR"],   "note": "PayNow-enabled retailers across terminals; interoperable with UPI via PayNow corridor" }
 ]
